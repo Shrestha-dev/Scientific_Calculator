@@ -2,7 +2,7 @@
 
 ##  📝 **ABOUT**
 
-*This calculator is responsive to do both simple arithmetic calculation as well as other operations like logarithm, trigonometric functions and exponentials.
+*This calculator is responsive to do both simple arithmetic calculation as well as other operations like logarithm, trigonometric functions and exponentials.*
               *It also has second function property where it contains other higher mathenatical operations like sin, cos inverse and hyperbola*
 
 ## 🛠️ **KEY BUILDING LANGUAGES**
@@ -13,7 +13,7 @@
 
 ## 🔍 **IN COMPARE WITH OTHER WEBISTES OF SAME**
 
-*Is contains*
+*It contains:- *
 - Clear response
 - Optimistic UI
 - Glow effect and smooth calculations
