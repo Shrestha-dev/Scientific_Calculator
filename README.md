@@ -13,7 +13,7 @@
 
 ## 🔍 **IN COMPARE WITH OTHER WEBISTES OF SAME**
 
-*It contains:- *
+*It contains:-*
 - Clear response
 - Optimistic UI
 - Glow effect and smooth calculations
