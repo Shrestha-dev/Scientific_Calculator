@@ -1,0 +1,112 @@
+.Ordinary{
+    font-family: "Orbitron", system-ui;
+    color: #00f0ff;
+    font-weight: 400px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    text-shadow: 0 0 10px rgba(0, 240, 255, 0.8),
+                 0 0 20px rgba(0, 240, 255, 0.4);
+    padding: 30px;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #07020d;
+    color: #ffffff;
+    margin: 0;
+    padding-top: 50px;
+}
+.cal{
+    display: inline-block;
+    background-color: rgba(20, 5, 35, 0.8);
+    padding: 25px;
+    border-radius: 15px;
+    border: 2px solid #bc13fe;
+    box-shadow: 
+    0 0 15px #bc13fe,
+    0 0 40px rgba(188, 19, 254, 0.4),
+    inset 0 0 30px rgba(188, 19, 254, 0.2);
+}
+.cal div{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+.blank{
+    width: 120px;
+}
+.space{
+    width: 60px;
+}
+.btn{
+    position: relative;
+}
+.sec{
+    position: absolute;
+    top: 2px;
+    left: 3px;
+    font-size: 9px;
+    color: #00f0ff;
+}
+.sym{
+    font-size: 17px;
+}
+.col2{
+    transform: translateX(20px) scale(1.08);
+}
+.col3{
+    transform: translateX(39px) scale(1.08);
+}
+button{
+    font-family: "Orbitron", system-ui;
+    color: #ffffff;
+    background-color: rgba(188, 19, 254, 0.1);
+    padding: 10px;
+    border: 2px solid #6e5877c4;
+    border-radius: 7px;
+    height: 52px;
+    width: 52px;
+    font-size: 10px;
+    margin: 3px;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 0 5px rgba(219, 199, 226, 0.712); 
+}
+button:hover{
+    background-color: #552a66;
+    color: #ffffff;
+    border-color: #ffffff;
+    box-shadow:  0 0 15px #bc13fe,
+     0 0 30px #bc13fe; 
+    cursor: pointer;
+}
+.display{
+    margin-bottom: 15px;
+    width: 100%;
+}
+#screen{
+    height: 65px;
+    width: 100%;
+    background-color: #020005;
+    color: #00f0ff;
+    font-family: "Orbitron", system-ui;;
+    font-size: 25px;
+    text-align: right;
+    font-weight: bold;
+    padding: 10px 15px ;
+    margin: 10px;
+    border: 3px solid #00f0ff;
+    border-radius: 8px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 240, 255, 0.4),
+    inset 0 0 15px rgba(0, 240, 255, 0.4);
+    text-shadow: 0 0 8px #00f0ff;
+}
+
+
+
